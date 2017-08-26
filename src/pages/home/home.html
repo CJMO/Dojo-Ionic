@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Aplicación Ionic
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button block (click)="funcionClick()">Mostrar datos</button>
+  {{informacion.login}}
+  <img src="{{informacion.avatar_url}}"/>
+</ion-content>
